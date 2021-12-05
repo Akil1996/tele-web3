@@ -154,7 +154,7 @@ bot.onText(/\/view/, function(msg) {
 });
 
 bot.onText(/\/start/, function(msg) {
-    var msgVariables = "/weth = " + "To change weth variable" +"\n /router = "+ "To change router variable"+ "\n /tokenaddy = " + "To change tokenaddy variable"+ "\n /oAmtBuy = " + "To change originalAmountToBuyWith variable"+ "\n /gaslimit = "+ "To change gaslimit variable" + "\n /maxfee = "+ "To change maxfee variable"+ ",\n /priorityfee = "+ "To change priorityfee variable";
+    var msgVariables = "/weth = " + "To change weth variable" +"\n /router = "+ "To change router variable"+ "\n /tokenaddy = " + "To change tokenaddy variable"+ "\n /oAmtBuy = " + "To change originalAmountToBuyWith variable"+ "\n /gaslimit = "+ "To change gaslimit variable" + "\n /maxfee = "+ "To change maxfee variable"+ ",\n /priorityfee = "+ "To change priorityfee variable" +"\n /view = "+ "To view all the variables"+"\n /run = "+ "To run the function";
     bot.sendMessage(msg.chat.id, msgVariables);
 });
 
